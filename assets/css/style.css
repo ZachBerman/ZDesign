@@ -477,7 +477,16 @@ Button style
 .btn-link:hover {
   color: #999;
 }
-
+.btn-primary {
+  background-color: #2cb9f5;
+  color: #fff;
+  border-color: #2cb9f5;
+}
+.btn-primary:hover {
+  background-color: #0CAAED;
+  color: #fff;
+  border-color: #0CAAED;
+}
 /*
 Top bar style
 */
@@ -822,6 +831,8 @@ Portfolio styles
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 400;
   letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #888;
 }
 
 .cbp-l-grid-work .cbp-item-wrapper {
@@ -1222,4 +1233,21 @@ letter-spacing: 2px;
 
 #map {
   height: 400px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.03);
 }
