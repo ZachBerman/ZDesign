@@ -1252,3 +1252,8 @@ letter-spacing: 2px;
 .hvr-grow:active {
     transform: scale(1.03);
 }
+
+.boxed {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 25px;
+}
