@@ -1257,3 +1257,12 @@ letter-spacing: 2px;
   background: rgba(0, 0, 0, 0.45);
   padding: 25px;
 }
+
+.404arrow {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  z-index: 99;
+}
