@@ -1,0 +1,175 @@
+<!-- Portfolio Modals -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="portfolioModal1" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="ion-close-round"></i> close</button>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Big Bend Cafe</h2>
+                  <hr class="colored">
+                  <img src="assets/images/project1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <br>
+                    <p>ZDesign took the existing identity and theme of the Big Bend Cafe and gave it a face lift to create this clean, simple website. We created a custom Wordpress theme, then handed it over to our client so they could edit and add content as desired. An Instagram feed was integrated so the Big Bend could update their website with a simple post from their phone.</p>
+                    <div class="text-center">  
+                      <a href="http://www.bigbendcafe.ca" target="_blank">
+                        <button class="btn btn-lg btn-skin-border center-block">open project</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="portfolioModal2" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="ion-close-round"></i> close</button>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Palisade River Ranch</h2>
+                  <hr class="colored">
+                  <img src="assets/images/project2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <br>
+                    <p>ZDesign was lucky enough to visit this beautiful property to get a feel for what the owners were trying to create. This website tried to truly capture the atmosphere of the Palisade River Ranch, and show the user all aspects of the property. The owners wanted to keep things simple, leaving lots of room for the website to grow as the property develops. We look forwarding to updating and adding to this site as the Palisade River Ranch expands.</p>
+                    <div class="text-center">  
+                      <a href="https://www.palisaderiverranch.com" target="_blank">
+                        <button class="btn btn-lg btn-skin-border center-block">open project</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="portfolioModal3" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="ion-close-round"></i> close</button>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Livingston Pilates</h2>
+                  <hr class="colored">
+                  <img src="assets/images/project3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <br>
+                    <p>This was a budget-oriented project created for a brand new pilates studio in Livingston, Montana. Realizing that a website is just one piece of the many costs with starting a new business, ZDesign was able to make this an extremely budget-friendly project. We created a custom Wordpress theme, and set it up with custom fields so that our client create new pages and content as her studio came to life.</p>
+                    <div class="text-center">  
+                      <a href="http://www.livingstonpilates.com" target="_blank">
+                        <button class="btn btn-lg btn-skin-border center-block">open project</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="portfolioModal4" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="ion-close-round"></i> close</button>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>KMC Ads</h2>
+                  <hr class="colored">
+                  <img src="assets/images/project4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <br>
+                    <p>ZDesign was contracted to create multiple print advertisements for the Big Bend Cafe, keeping with the new branding and identity created with their website. These ads can be seen in local Golden magazines, as well as in Kootenay Mountain Culture.</p>
+                    <!-- <div class="text-center">  
+                      <a href="http://www.bigbendcafe.ca" target="_blank">
+                        <button class="btn btn-lg btn-skin-border center-block">open project</button>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="portfolioModal5" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="ion-close-round"></i> close</button>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Frisky Fresh Fish</h2>
+                  <hr class="colored">
+                  <img src="assets/images/project5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <br>
+                    <p>Frisky Fresh Fish hired ZDesign to build them a simple, fun online presence. We created a playful website highlighting current pricing, and locations where you can find Frisky Fresh.</p>
+                    <div class="text-center">  
+                      <a href="http://www.friskyfreshfishslc.com" target="_blank">
+                        <button class="btn btn-lg btn-skin-border center-block">open project</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="portfolioModal6" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="ion-close-round"></i> close</button>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Finder</h2>
+                  <hr class="colored">
+                  <img src="assets/images/project6.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <br>
+                    <p>ZDesign has been lucky to secure an ongoing contract with <a href="https://www.finder.com" target="_blank">finder.com </a>as an on-call web designer/developer. We have created numerous responsive web pages, campaigns, and content for finder, all with Search Engine Optimization at the forefront.</p>
+                    <div class="text-center">  
+                      <a href="https://www.finder.com" target="_blank">
+                        <button class="btn btn-lg btn-skin-border center-block">open project</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
