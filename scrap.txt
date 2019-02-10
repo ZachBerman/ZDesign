@@ -173,3 +173,24 @@
         </div>
       </div>
     </div>
+
+
+    
+        <!--top bar start-->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 hidden-sm-down">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="tel:1-250-939-8372" class="tel"><i class="ion-ios-telephone"></i> (250) 939-8372</a></li>
+                        </ul>
+                    </div><!--top left col end-->
+                    <div class="col-sm-6 hidden-sm-down text-right">
+                        <ul class="list-inline top-socials">
+                            <li class="list-inline-item"><a href="mailto:hello@z-design.ca"><i class="ion-ios-email"></i> hello@z-design.ca</a></li>
+                        </ul>
+                    </div><!--top social col end-->
+                </div><!--row-->
+            </div><!--container-->
+        </div>
+        <!--top bar end-->
