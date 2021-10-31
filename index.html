@@ -606,7 +606,7 @@
 								</div><!--row-->
 								<div class="row">
 										<div class="col-md-5 offset-md-1 margin-b-30">
-												<form name="contact_form" id="contact-form" method="POST" action="https://formspree.io/zberms@gmail.com" class="xone-contact" data-toggle="validator">
+												<form name="contact_form" id="contact-form" method="POST" data-netlify="true" class="xone-contact" data-toggle="validator">
 														<div class="row">
 																<div class="col-sm-12">                                 
 																		<div class=" margin-b-20">
@@ -672,7 +672,7 @@
 				<!-- Google Map Script -->
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2LtrGW1GK9Bko0sJf41NxOPde5zi6PbY&callback=initMap"
 		async defer></script>
-				<script>
+				<!-- <script>
 					var $contactForm = $('#contact-form');
 
 					$contactForm.submit(function(e) {
@@ -700,7 +700,7 @@
 									error: function(err) {
 											//$contactForm.find('.alert--loading').hide();
 											//$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-											$submit.val('Ops, there was an error.');
+											$submit.val('Oops, there was an error.');
 											setTimeout(function() {
 													//$('.alert--error').remove();
 													$submit.attr('disabled', false).val(defaultSubmitText);
@@ -708,6 +708,6 @@
 									}
 							});
 					});
-				</script>
+				</script> -->
 	</body>
 </html>
