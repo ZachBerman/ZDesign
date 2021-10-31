@@ -606,7 +606,7 @@
 								</div><!--row-->
 								<div class="row">
 										<div class="col-md-5 offset-md-1 margin-b-30">
-												<form name="form" id="form" method="POST" data-netlify="true" class="xone-contact" data-toggle="validator">
+												<form name="form" id="form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="xone-contact" data-toggle="validator">
 														<div class="row">
 																<div class="col-sm-12">                                 
 																		<div class=" margin-b-20">
@@ -619,6 +619,9 @@
 																<div class="col-sm-12">
 																		<textarea name="message" id="message" type="text" class="textarea form-control margin-b-20" rows="5" placeholder="Message...." required></textarea>                                  
 																</div>
+																<p class="hidden" style="display:none !important;">
+																    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+																  </p>
 														</div>
 														<!-- CONFIG -->
 														<input class="hidden" type="text" name="_gotcha">
