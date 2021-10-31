@@ -606,7 +606,7 @@
 								</div><!--row-->
 								<div class="row">
 										<div class="col-md-5 offset-md-1 margin-b-30">
-												<form name="contact_form" id="contact-form" method="POST" data-netlify="true" class="xone-contact" data-toggle="validator">
+												<form name="form" id="form" method="POST" data-netlify="true" class="xone-contact" data-toggle="validator">
 														<div class="row">
 																<div class="col-sm-12">                                 
 																		<div class=" margin-b-20">
@@ -672,42 +672,20 @@
 				<!-- Google Map Script -->
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2LtrGW1GK9Bko0sJf41NxOPde5zi6PbY&callback=initMap"
 		async defer></script>
-				<!-- <script>
-					var $contactForm = $('#contact-form');
+				<script>
+					const handleSubmit = (e) => {
+					  e.preventDefault()
+					  let myForm = document.getElementById('form');
+					  let formData = new FormData(myForm)
+					  fetch('/', {
+					    method: 'POST',
+					    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+					    body: new URLSearchParams(formData).toString()
+					  }).then(() => console.log('Form successfully submitted')).catch((error) =>
+					    alert(error))
+					}
 
-					$contactForm.submit(function(e) {
-						e.preventDefault();
-						var $submit = $('input:submit', $contactForm);
-						var defaultSubmitText = $submit.val();
-
-							$.ajax({
-									url: '//formspree.io/zberms@gmail.com',
-									method: 'POST',
-									data: $(this).serialize(),
-									dataType: 'json',
-									beforeSend: function() {
-											//$contactForm.append('<div class="alert alert--loading">Sending message…</div>');
-											$submit.attr('disabled', true).val('Sending message…');
-									},
-									success: function(data) {
-											// $contactForm.append('<div class="alert alert--success">Message sent!</div>');
-											$submit.val('Message sent!');
-											setTimeout(function() {
-													//$('.alert--success').remove();
-													$submit.attr('disabled', false).val(defaultSubmitText);
-											}, 1000000);
-									},
-									error: function(err) {
-											//$contactForm.find('.alert--loading').hide();
-											//$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-											$submit.val('Oops, there was an error.');
-											setTimeout(function() {
-													//$('.alert--error').remove();
-													$submit.attr('disabled', false).val(defaultSubmitText);
-											}, 100000);
-									}
-							});
-					});
-				</script> -->
+					document.querySelector("form").addEventListener("submit", handleSubmit);
+				</script>
 	</body>
 </html>
