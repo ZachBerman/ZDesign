@@ -720,7 +720,7 @@
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission, we'll get back to you shortly!";
+          status.innerHTML = "Thanks for your submission!";
           form.reset()
         } else {
           response.json().then(data => {
