@@ -224,3 +224,5 @@ blockquote, blockquote p{font-weight:300;}
 .hvr-grow:active{transform:scale(1.03);}
 .boxed{background:rgba(0, 0, 0, 0.45);padding:25px;}
 .404arrow{position:absolute;width:100%;left:0;bottom:10px;text-align:center;z-index:99;}
+.form-message {font-family: "Roboto", sans-serif;font-size: 1rem;font-weight: 700;color: #2cb9f5;}
+.form-message:first-letter{text-transform: capitalize;}

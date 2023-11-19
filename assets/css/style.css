@@ -1271,4 +1271,7 @@ letter-spacing: 2px;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  color: #2cb9f5;
 }
+
+.form-message:first-letter{text-transform: capitalize;}
